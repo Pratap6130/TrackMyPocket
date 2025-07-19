@@ -1,71 +1,50 @@
-# 💰 Well Spend Budget Tracker
+# 💰 Pocket Track - Your Personal Budgeting Companion
 
-A simple Python project to help you manage your expenses across different categories like Food, Clothing, Entertainment, and more. You can deposit, withdraw, transfer funds, and even see a visual chart of your spending!
+<p align="center">
+  <img src="https://img.shields.io/github/license/Pratap6130/Pocket-Track?style=flat-square" />
+  <img src="https://img.shields.io/github/languages/top/Pratap6130/Pocket-Track?style=flat-square" />
+  <img src="https://img.shields.io/github/last-commit/Pratap6130/Pocket-Track?style=flat-square" />
+</p>
+
+> A Python-based terminal app to help you track your expenses, manage your budget, and stay in control of your finances. Simple, clean, and effective.
+
+---
+
+## 🧠 About the Project
+
+**Pocket Track** is a lightweight command-line tool that lets you:
+- 📥 Add your income and expenses
+- 📊 See categorized summaries
+- 🗂 Save your budget data automatically
+- 🧾 Get a clean report of your spending
+
+Whether you're a student, developer, or anyone looking for a distraction-free budgeting tool — Pocket Track has your back!
 
 ---
 
 ## 🚀 Features
 
-- Track spending for multiple categories (e.g. Food, Clothing, Business)
-- Deposit and withdraw money with optional descriptions
-- Transfer money from one category to another
-- Get current balance for any category
-- Visualize spending using a **spend chart**
+- ✅ Add Income & Expense Entries
+- 📁 Automatically Saves Data in CSV Format
+- 📌 Category Tagging
+- 📈 Get Monthly & Total Expense Summaries
+- 🧹 Reset/Delete Data When Needed
 
 ---
 
-## 📁 Files in the Project
+## 🛠 Tech Stack
 
-| File Name       | Description                                     |
-|----------------|-------------------------------------------------|
-| `budget.py`     | Contains the main logic and the `Category` class |
-| `main.py`       | Sample usage of the Budget Tracker              |
-| `test_module.py`| Unit tests to verify the functionality          |
+- **Language**: Python 3
+- **Modules Used**:
+  - `csv`
+  - `datetime`
+  - `os`
 
 ---
 
-## 🧾 Example Output
+## ⚙️ How to Use
 
-After running the code in `main.py`, you'll get outputs like:
-
-```text
-934.11
-*************Food*************
-initial deposit        1000.00
-groceries               -10.15
-restaurant and more f   -15.89
-Transfer to Clothing    -50.00
-Total: 923.96
-
-***********Clothing***********
-Transfer from Food        50.00
-                         -25.55
-                        -100.00
-Total: -75.55
-
-Percentage spent by category
-100|          
- 90|          
- 80|          
- 70|    o     
- 60|    o     
- 50|    o     
- 40|    o     
- 30|    o     
- 20|    o  o  
- 10|    o  o  
-  0| o  o  o  
-    ----------
-     B  F  E  
-     u  o  n  
-     s  o  t  
-     i  d  e  
-     n     r  
-     e     t  
-     s     a  
-     s     i  
-           n  
-           m  
-           e  
-           n  
-           t
+1. **Clone the repository**
+```bash
+git clone https://github.com/Pratap6130/Pocket-Track.git
+cd Pocket-Track
