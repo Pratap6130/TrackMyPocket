@@ -1,10 +1,6 @@
 # 💰 Pocket Track - Your Personal Budgeting Companion
 
-<p align="center">
-  <img src="https://img.shields.io/github/license/Pratap6130/Pocket-Track?style=flat-square" />
-  <img src="https://img.shields.io/github/languages/top/Pratap6130/Pocket-Track?style=flat-square" />
-  <img src="https://img.shields.io/github/last-commit/Pratap6130/Pocket-Track?style=flat-square" />
-</p>
+
 
 > A Python-based terminal app to help you track your expenses, manage your budget, and stay in control of your finances. Simple, clean, and effective.
 
